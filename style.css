@@ -1,0 +1,160 @@
+html, body * {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-image: url("./images.jpg") ;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 400px;
+    height: 600px;
+    border: 2px solid rgb(173, 40, 122);
+    box-shadow: 0 0 10px 10px rgb(202, 20, 136);
+    margin: 100px auto;
+    background-image: url("./image.png");
+}
+.header {
+    display: flex;
+    justify-content: center;    
+}
+.header .Existing-user  {
+    margin: 20px auto;
+
+}
+.header .Existing-user input {
+    padding: 0;
+    font-weight: bold;
+    width: 200px ;
+    font-size: larger;
+    color: aliceblue;
+    background-color: transparent;
+    border-style: groove;
+    border-color: transparent transparent blue transparent ;
+    border-radius: 10px;
+}
+.header .Existing-user input:hover {
+    background: rgb(160, 9, 135);
+    height: 50px;
+    border: none;
+}
+
+.header .New-user {
+    margin: 20px auto;
+}
+.header .New-user input {
+    padding: 0;
+    font-weight: bold;
+    width: 200px;
+    font-size: larger;
+    color: aliceblue;
+    background-color: transparent;
+    border-style: groove;
+    border-color: transparent transparent blue transparent ;
+    border-radius: 10px;
+}
+.header .New-user input:hover {
+    background: rgb(160, 9, 135);
+    height: 50px;
+    border: none;
+}
+.middle {
+    margin: 30px;
+}
+.middle label {
+    color: aliceblue;
+}
+.middle .full-name input {
+    color: aliceblue;
+    font-size: 18px;
+    font-family: relative;
+    margin: 20px 0;
+    width: 100%;
+    height: 40px;
+    background:rgb(199, 65, 147);
+    border-style: groove;
+    border: 1px solid rgb(199, 65, 147);
+    border-radius: 20px;
+}
+.middle .full-name input:hover {
+    border: 3px solid rgb(72, 47, 182);
+}
+.middle .email input {
+    color: aliceblue;
+    font-size: 18px;
+    font-family: relative;
+    margin: 20px 0;
+    width: 100%;
+    height: 40px;
+    background:rgb(199, 65, 147);
+    border-style: groove;
+    border: 1px solid rgb(199, 65, 147);
+    border-radius: 20px;
+}
+.middle .email input:hover {
+    border: 3px solid rgb(72, 47, 182);
+}
+.middle .enter input {
+    color: aliceblue;
+    font-size: 18px;
+    font-family: relative;
+    margin: 20px 0;
+    width: 100%;
+    height: 40px;
+    background:rgb(199, 65, 147);
+    border-style: groove;
+    border: 1px solid rgb(199, 65, 147);
+    border-radius: 20px;
+}
+.middle .enter input:hover {
+    border: 3px solid rgb(72, 47, 182);
+}
+.middle .create input {
+    color: aliceblue;
+    font-size: 18px;
+    font-family: relative;
+    margin: 20px 0;
+    width: 100%;
+    height: 40px;
+    background:rgb(199, 65, 147);
+    border-style: groove;
+    border: 1px solid rgb(199, 65, 147);
+    border-radius: 20px;
+}
+.middle .create input:hover {
+    border: 3px solid rgb(72, 47, 182);
+}
+.end {
+    margin: 30px;
+}
+.end input {
+    font-size: 18px;
+    font-family: relative;
+    margin: 20px 0;
+    width: 100%;
+    height: 40px;
+    background:rgb(55, 28, 206);
+    border-style: groove;
+    border: 1px solid rgb(88, 35, 172);
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.end input:hover {
+    background: rgb(85, 65, 216) ;
+}
+.forgot a {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    text-decoration: none;
+    font-size: 15px;
+    font: relative;
+    font-weight: bold;
+    color: rgb(140, 143, 146);
+
+}
